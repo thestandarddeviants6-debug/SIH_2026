@@ -29,7 +29,7 @@ const App: React.FC = () => {
   return (
     <LanguageProvider>
       <AppStoreProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/SIH_2026">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
